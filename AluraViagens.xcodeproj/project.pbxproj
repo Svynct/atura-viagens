@@ -13,6 +13,17 @@
 		6AF6F9272B3332EB00901F1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AF6F9252B3332EB00901F1F /* Main.storyboard */; };
 		6AF6F9292B3332EC00901F1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AF6F9282B3332EC00901F1F /* Assets.xcassets */; };
 		6AF6F92C2B3332EC00901F1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AF6F92A2B3332EC00901F1F /* LaunchScreen.storyboard */; };
+		6AF6F9342B33368200901F1F /* HomeTableViewHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AF6F9332B33368200901F1F /* HomeTableViewHeader.xib */; };
+		6AF6F9362B3338B400901F1F /* HomeTableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF6F9352B3338B400901F1F /* HomeTableViewHeader.swift */; };
+		6AF6F93F2B33811000901F1F /* ViagemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF6F93D2B33811000901F1F /* ViagemTableViewCell.swift */; };
+		6AF6F9402B33811000901F1F /* ViagemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AF6F93E2B33811000901F1F /* ViagemTableViewCell.xib */; };
+		6AF6F9432B338E8700901F1F /* server-response.json in Resources */ = {isa = PBXBuildFile; fileRef = 6AF6F9422B338E8700901F1F /* server-response.json */; };
+		6AF6F9452B338EC600901F1F /* DecodableData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF6F9442B338EC600901F1F /* DecodableData.swift */; };
+		6AF6F9472B338ED500901F1F /* TiposDeViagens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF6F9462B338ED500901F1F /* TiposDeViagens.swift */; };
+		6AF6F9492B338EDF00901F1F /* Viagem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF6F9482B338EDF00901F1F /* Viagem.swift */; };
+		6AF6F94C2B338EF900901F1F /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF6F94B2B338EF900901F1F /* UIView+Extension.swift */; };
+		6AF6F94E2B338F4C00901F1F /* ViagemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF6F94D2B338F4C00901F1F /* ViagemViewModel.swift */; };
+		6AF6F9512B338FEF00901F1F /* ViagemDestaqueViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF6F9502B338FEF00901F1F /* ViagemDestaqueViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +35,17 @@
 		6AF6F9282B3332EC00901F1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6AF6F92B2B3332EC00901F1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6AF6F92D2B3332EC00901F1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AF6F9332B33368200901F1F /* HomeTableViewHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewHeader.xib; sourceTree = "<group>"; };
+		6AF6F9352B3338B400901F1F /* HomeTableViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewHeader.swift; sourceTree = "<group>"; };
+		6AF6F93D2B33811000901F1F /* ViagemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViagemTableViewCell.swift; sourceTree = "<group>"; };
+		6AF6F93E2B33811000901F1F /* ViagemTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViagemTableViewCell.xib; sourceTree = "<group>"; };
+		6AF6F9422B338E8700901F1F /* server-response.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "server-response.json"; sourceTree = "<group>"; };
+		6AF6F9442B338EC600901F1F /* DecodableData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecodableData.swift; sourceTree = "<group>"; };
+		6AF6F9462B338ED500901F1F /* TiposDeViagens.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TiposDeViagens.swift; sourceTree = "<group>"; };
+		6AF6F9482B338EDF00901F1F /* Viagem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Viagem.swift; sourceTree = "<group>"; };
+		6AF6F94B2B338EF900901F1F /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		6AF6F94D2B338F4C00901F1F /* ViagemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViagemViewModel.swift; sourceTree = "<group>"; };
+		6AF6F9502B338FEF00901F1F /* ViagemDestaqueViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViagemDestaqueViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +78,90 @@
 		6AF6F91E2B3332EB00901F1F /* AluraViagens */ = {
 			isa = PBXGroup;
 			children = (
-				6AF6F91F2B3332EB00901F1F /* AppDelegate.swift */,
-				6AF6F9212B3332EB00901F1F /* SceneDelegate.swift */,
-				6AF6F9232B3332EB00901F1F /* ViewController.swift */,
-				6AF6F9252B3332EB00901F1F /* Main.storyboard */,
+				6AF6F94A2B338EE700901F1F /* Extensions */,
+				6AF6F9372B3376E000901F1F /* AppDelegate */,
+				6AF6F9382B33771300901F1F /* Model */,
+				6AF6F9392B3377B200901F1F /* View */,
+				6AF6F93B2B33780700901F1F /* ViewModel */,
 				6AF6F9282B3332EC00901F1F /* Assets.xcassets */,
+				6AF6F9412B338E6700901F1F /* Mock */,
 				6AF6F92A2B3332EC00901F1F /* LaunchScreen.storyboard */,
 				6AF6F92D2B3332EC00901F1F /* Info.plist */,
 			);
 			path = AluraViagens;
+			sourceTree = "<group>";
+		};
+		6AF6F9372B3376E000901F1F /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				6AF6F91F2B3332EB00901F1F /* AppDelegate.swift */,
+				6AF6F9212B3332EB00901F1F /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		6AF6F9382B33771300901F1F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6AF6F9482B338EDF00901F1F /* Viagem.swift */,
+				6AF6F9442B338EC600901F1F /* DecodableData.swift */,
+				6AF6F9462B338ED500901F1F /* TiposDeViagens.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6AF6F9392B3377B200901F1F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6AF6F93C2B3380E400901F1F /* Cells */,
+				6AF6F93A2B3377D900901F1F /* Header */,
+				6AF6F9232B3332EB00901F1F /* ViewController.swift */,
+				6AF6F9252B3332EB00901F1F /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6AF6F93A2B3377D900901F1F /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				6AF6F9352B3338B400901F1F /* HomeTableViewHeader.swift */,
+				6AF6F9332B33368200901F1F /* HomeTableViewHeader.xib */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		6AF6F93B2B33780700901F1F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6AF6F94D2B338F4C00901F1F /* ViagemViewModel.swift */,
+				6AF6F9502B338FEF00901F1F /* ViagemDestaqueViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6AF6F93C2B3380E400901F1F /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				6AF6F93D2B33811000901F1F /* ViagemTableViewCell.swift */,
+				6AF6F93E2B33811000901F1F /* ViagemTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		6AF6F9412B338E6700901F1F /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				6AF6F9422B338E8700901F1F /* server-response.json */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		6AF6F94A2B338EE700901F1F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6AF6F94B2B338EF900901F1F /* UIView+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +223,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6AF6F92C2B3332EC00901F1F /* LaunchScreen.storyboard in Resources */,
+				6AF6F9432B338E8700901F1F /* server-response.json in Resources */,
+				6AF6F9342B33368200901F1F /* HomeTableViewHeader.xib in Resources */,
 				6AF6F9292B3332EC00901F1F /* Assets.xcassets in Resources */,
 				6AF6F9272B3332EB00901F1F /* Main.storyboard in Resources */,
+				6AF6F9402B33811000901F1F /* ViagemTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +238,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AF6F9492B338EDF00901F1F /* Viagem.swift in Sources */,
 				6AF6F9242B3332EB00901F1F /* ViewController.swift in Sources */,
+				6AF6F93F2B33811000901F1F /* ViagemTableViewCell.swift in Sources */,
+				6AF6F94C2B338EF900901F1F /* UIView+Extension.swift in Sources */,
+				6AF6F9472B338ED500901F1F /* TiposDeViagens.swift in Sources */,
+				6AF6F9362B3338B400901F1F /* HomeTableViewHeader.swift in Sources */,
+				6AF6F9452B338EC600901F1F /* DecodableData.swift in Sources */,
 				6AF6F9202B3332EB00901F1F /* AppDelegate.swift in Sources */,
 				6AF6F9222B3332EB00901F1F /* SceneDelegate.swift in Sources */,
+				6AF6F94E2B338F4C00901F1F /* ViagemViewModel.swift in Sources */,
+				6AF6F9512B338FEF00901F1F /* ViagemDestaqueViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +407,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -326,6 +435,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
