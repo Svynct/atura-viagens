@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A4BD2972B34ACD4008C24E6 /* OfertaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4BD2952B34ACD4008C24E6 /* OfertaTableViewCell.swift */; };
+		6A4BD2982B34ACD4008C24E6 /* OfertaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A4BD2962B34ACD4008C24E6 /* OfertaTableViewCell.xib */; };
+		6A4BD29A2B34ADA3008C24E6 /* ViagemOfertaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4BD2992B34ADA3008C24E6 /* ViagemOfertaViewModel.swift */; };
+		6A4BD2A02B34CDD3008C24E6 /* DetalheViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4BD29E2B34CDD3008C24E6 /* DetalheViewController.swift */; };
+		6A4BD2A12B34CDD3008C24E6 /* DetalheViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A4BD29F2B34CDD3008C24E6 /* DetalheViewController.xib */; };
 		6AF6F9202B3332EB00901F1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF6F91F2B3332EB00901F1F /* AppDelegate.swift */; };
 		6AF6F9222B3332EB00901F1F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF6F9212B3332EB00901F1F /* SceneDelegate.swift */; };
 		6AF6F9242B3332EB00901F1F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF6F9232B3332EB00901F1F /* ViewController.swift */; };
@@ -27,6 +32,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6A4BD2952B34ACD4008C24E6 /* OfertaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfertaTableViewCell.swift; sourceTree = "<group>"; };
+		6A4BD2962B34ACD4008C24E6 /* OfertaTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OfertaTableViewCell.xib; sourceTree = "<group>"; };
+		6A4BD2992B34ADA3008C24E6 /* ViagemOfertaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViagemOfertaViewModel.swift; sourceTree = "<group>"; };
+		6A4BD29E2B34CDD3008C24E6 /* DetalheViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalheViewController.swift; sourceTree = "<group>"; };
+		6A4BD29F2B34CDD3008C24E6 /* DetalheViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetalheViewController.xib; sourceTree = "<group>"; };
 		6AF6F91C2B3332EB00901F1F /* AluraViagens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AluraViagens.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AF6F91F2B3332EB00901F1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6AF6F9212B3332EB00901F1F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +69,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6A4BD2932B34AC8A008C24E6 /* Destaque */ = {
+			isa = PBXGroup;
+			children = (
+				6AF6F93D2B33811000901F1F /* ViagemTableViewCell.swift */,
+				6AF6F93E2B33811000901F1F /* ViagemTableViewCell.xib */,
+			);
+			path = Destaque;
+			sourceTree = "<group>";
+		};
+		6A4BD2942B34ACAE008C24E6 /* Oferta */ = {
+			isa = PBXGroup;
+			children = (
+				6A4BD2952B34ACD4008C24E6 /* OfertaTableViewCell.swift */,
+				6A4BD2962B34ACD4008C24E6 /* OfertaTableViewCell.xib */,
+			);
+			path = Oferta;
+			sourceTree = "<group>";
+		};
+		6A4BD29D2B34CD8A008C24E6 /* DetalheViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6A4BD29E2B34CDD3008C24E6 /* DetalheViewController.swift */,
+				6A4BD29F2B34CDD3008C24E6 /* DetalheViewController.xib */,
+			);
+			path = DetalheViewController;
+			sourceTree = "<group>";
+		};
 		6AF6F9132B3332EB00901F1F = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +150,7 @@
 		6AF6F9392B3377B200901F1F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				6A4BD29D2B34CD8A008C24E6 /* DetalheViewController */,
 				6AF6F93C2B3380E400901F1F /* Cells */,
 				6AF6F93A2B3377D900901F1F /* Header */,
 				6AF6F9232B3332EB00901F1F /* ViewController.swift */,
@@ -135,6 +173,7 @@
 			children = (
 				6AF6F94D2B338F4C00901F1F /* ViagemViewModel.swift */,
 				6AF6F9502B338FEF00901F1F /* ViagemDestaqueViewModel.swift */,
+				6A4BD2992B34ADA3008C24E6 /* ViagemOfertaViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -142,8 +181,8 @@
 		6AF6F93C2B3380E400901F1F /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				6AF6F93D2B33811000901F1F /* ViagemTableViewCell.swift */,
-				6AF6F93E2B33811000901F1F /* ViagemTableViewCell.xib */,
+				6A4BD2942B34ACAE008C24E6 /* Oferta */,
+				6A4BD2932B34AC8A008C24E6 /* Destaque */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -222,12 +261,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A4BD2A12B34CDD3008C24E6 /* DetalheViewController.xib in Resources */,
 				6AF6F92C2B3332EC00901F1F /* LaunchScreen.storyboard in Resources */,
 				6AF6F9432B338E8700901F1F /* server-response.json in Resources */,
 				6AF6F9342B33368200901F1F /* HomeTableViewHeader.xib in Resources */,
 				6AF6F9292B3332EC00901F1F /* Assets.xcassets in Resources */,
 				6AF6F9272B3332EB00901F1F /* Main.storyboard in Resources */,
 				6AF6F9402B33811000901F1F /* ViagemTableViewCell.xib in Resources */,
+				6A4BD2982B34ACD4008C24E6 /* OfertaTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,12 +283,15 @@
 				6AF6F9242B3332EB00901F1F /* ViewController.swift in Sources */,
 				6AF6F93F2B33811000901F1F /* ViagemTableViewCell.swift in Sources */,
 				6AF6F94C2B338EF900901F1F /* UIView+Extension.swift in Sources */,
+				6A4BD29A2B34ADA3008C24E6 /* ViagemOfertaViewModel.swift in Sources */,
+				6A4BD2972B34ACD4008C24E6 /* OfertaTableViewCell.swift in Sources */,
 				6AF6F9472B338ED500901F1F /* TiposDeViagens.swift in Sources */,
 				6AF6F9362B3338B400901F1F /* HomeTableViewHeader.swift in Sources */,
 				6AF6F9452B338EC600901F1F /* DecodableData.swift in Sources */,
 				6AF6F9202B3332EB00901F1F /* AppDelegate.swift in Sources */,
 				6AF6F9222B3332EB00901F1F /* SceneDelegate.swift in Sources */,
 				6AF6F94E2B338F4C00901F1F /* ViagemViewModel.swift in Sources */,
+				6A4BD2A02B34CDD3008C24E6 /* DetalheViewController.swift in Sources */,
 				6AF6F9512B338FEF00901F1F /* ViagemDestaqueViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

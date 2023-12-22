@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "06E6B3A6-2C1B-4B1B-B757-21C19B13EB34"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "68254D54-64F7-452D-9010-9B1F320793EB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AluraViagens/View/DetalheViewController/DetalheViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "botaoVoltar(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "68254D54-64F7-452D-9010-9B1F320793EB - 4a808874032ee000"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AluraViagens.DetalheViewController.botaoVoltar(__C.UIButton) -&gt; ()"
+                  moduleName = "AluraViagens"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ricardodossantosamaral/Desktop/AluraViagens/AluraViagens/View/DetalheViewController/DetalheViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "68254D54-64F7-452D-9010-9B1F320793EB - 4a808874032ee000"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AluraViagens.DetalheViewController.botaoVoltar(__C.UIButton) -&gt; ()"
+                  moduleName = "AluraViagens"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ricardodossantosamaral/Desktop/AluraViagens/AluraViagens/View/DetalheViewController/DetalheViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "60">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
